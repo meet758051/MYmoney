@@ -24,7 +24,33 @@ namespace GUI_Class
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
+            MessageBox.Show("幹嘛?");
 
+        }
+
+        private void btm_0313_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("點三小(#`皿´)");
+            Form from_button = new Form_button();
+            from_button.Show();
+        }
+
+        private void btmctof_Click(object sender, EventArgs e)
+        {
+            Form ctof = new ctof();
+            ctof.Show();
+        }
+
+        private void button_math_Click(object sender, EventArgs e)
+        {
+            Form text_math = new text_math();
+            text_math.Show();
+        }
+
+        private void button_Timer_Click(object sender, EventArgs e)
+        {
+            Form text_math = new from_timer();
+            text_math.Show();
         }
     }
 }

@@ -30,50 +30,54 @@ namespace GUI_Class
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
+            this.kkick = new System.Windows.Forms.Label();
+            this.fsh = new System.Windows.Forms.Label();
+            this.ice = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
+            this.btm_0313 = new System.Windows.Forms.Button();
+            this.btmctof = new System.Windows.Forms.Button();
+            this.button_math = new System.Windows.Forms.Button();
+            this.button_Timer = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // label1
+            // kkick
             // 
-            this.label1.Font = new System.Drawing.Font("微軟正黑體", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.label1.Image = ((System.Drawing.Image)(resources.GetObject("label1.Image")));
-            this.label1.Location = new System.Drawing.Point(-1, -3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(802, 458);
-            this.label1.TabIndex = 0;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.kkick.Font = new System.Drawing.Font("微軟正黑體", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.kkick.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.kkick.Image = ((System.Drawing.Image)(resources.GetObject("kkick.Image")));
+            this.kkick.Location = new System.Drawing.Point(4, -5);
+            this.kkick.Name = "kkick";
+            this.kkick.Size = new System.Drawing.Size(802, 458);
+            this.kkick.TabIndex = 0;
+            this.kkick.Click += new System.EventHandler(this.label1_Click);
             // 
-            // label2
+            // fsh
             // 
-            this.label2.Font = new System.Drawing.Font("標楷體", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(273, 171);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(223, 59);
-            this.label2.TabIndex = 1;
-            this.label2.Text = "魚口渴了";
+            this.fsh.Font = new System.Drawing.Font("標楷體", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.fsh.ForeColor = System.Drawing.Color.Teal;
+            this.fsh.Location = new System.Drawing.Point(565, 57);
+            this.fsh.Name = "fsh";
+            this.fsh.Size = new System.Drawing.Size(223, 59);
+            this.fsh.TabIndex = 1;
+            this.fsh.Text = "魚口渴了";
             // 
-            // label3
+            // ice
             // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("標楷體", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
-            this.label3.ForeColor = System.Drawing.Color.Navy;
-            this.label3.Location = new System.Drawing.Point(247, 92);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(265, 48);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "被冰塊燙傷";
+            this.ice.AutoSize = true;
+            this.ice.Font = new System.Drawing.Font("標楷體", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
+            this.ice.ForeColor = System.Drawing.Color.Navy;
+            this.ice.Location = new System.Drawing.Point(523, 9);
+            this.ice.Name = "ice";
+            this.ice.Size = new System.Drawing.Size(265, 48);
+            this.ice.TabIndex = 2;
+            this.ice.Text = "被冰塊燙傷";
             // 
             // linkLabel1
             // 
             this.linkLabel1.AutoSize = true;
             this.linkLabel1.Font = new System.Drawing.Font("標楷體", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.linkLabel1.LinkVisited = true;
-            this.linkLabel1.Location = new System.Drawing.Point(273, 272);
+            this.linkLabel1.Location = new System.Drawing.Point(572, 116);
             this.linkLabel1.Name = "linkLabel1";
             this.linkLabel1.Size = new System.Drawing.Size(216, 48);
             this.linkLabel1.TabIndex = 3;
@@ -81,15 +85,59 @@ namespace GUI_Class
             this.linkLabel1.Text = "點我一下";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
+            // btm_0313
+            // 
+            this.btm_0313.Location = new System.Drawing.Point(12, 12);
+            this.btm_0313.Name = "btm_0313";
+            this.btm_0313.Size = new System.Drawing.Size(172, 68);
+            this.btm_0313.TabIndex = 4;
+            this.btm_0313.Text = "不要點我";
+            this.btm_0313.UseVisualStyleBackColor = true;
+            this.btm_0313.Click += new System.EventHandler(this.btm_0313_Click);
+            // 
+            // btmctof
+            // 
+            this.btmctof.Location = new System.Drawing.Point(216, 16);
+            this.btmctof.Name = "btmctof";
+            this.btmctof.Size = new System.Drawing.Size(185, 64);
+            this.btmctof.TabIndex = 5;
+            this.btmctof.Text = "其中考-攝氏轉華氏";
+            this.btmctof.UseVisualStyleBackColor = true;
+            this.btmctof.Click += new System.EventHandler(this.btmctof_Click);
+            // 
+            // button_math
+            // 
+            this.button_math.Location = new System.Drawing.Point(20, 98);
+            this.button_math.Name = "button_math";
+            this.button_math.Size = new System.Drawing.Size(164, 66);
+            this.button_math.TabIndex = 6;
+            this.button_math.Text = "加減乘除";
+            this.button_math.UseVisualStyleBackColor = true;
+            this.button_math.Click += new System.EventHandler(this.button_math_Click);
+            // 
+            // button_Timer
+            // 
+            this.button_Timer.Location = new System.Drawing.Point(216, 98);
+            this.button_Timer.Name = "button_Timer";
+            this.button_Timer.Size = new System.Drawing.Size(185, 66);
+            this.button_Timer.TabIndex = 7;
+            this.button_Timer.Text = "時間";
+            this.button_Timer.UseVisualStyleBackColor = true;
+            this.button_Timer.Click += new System.EventHandler(this.button_Timer_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button_Timer);
+            this.Controls.Add(this.button_math);
+            this.Controls.Add(this.btmctof);
+            this.Controls.Add(this.btm_0313);
             this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.ice);
+            this.Controls.Add(this.fsh);
+            this.Controls.Add(this.kkick);
             this.Name = "Form1";
             this.Text = "N10310028";
             this.ResumeLayout(false);
@@ -99,10 +147,14 @@ namespace GUI_Class
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label kkick;
+        private System.Windows.Forms.Label fsh;
+        private System.Windows.Forms.Label ice;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button btm_0313;
+        private System.Windows.Forms.Button btmctof;
+        private System.Windows.Forms.Button button_math;
+        private System.Windows.Forms.Button button_Timer;
     }
 }
 
