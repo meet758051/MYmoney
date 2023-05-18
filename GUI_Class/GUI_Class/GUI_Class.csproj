@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CheckBox.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CheckBox.Designer.cs">
+      <DependentUpon>CheckBox.cs</DependentUpon>
+    </Compile>
     <Compile Include="ctof.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,6 +76,12 @@
     <Compile Include="from_timer.Designer.cs">
       <DependentUpon>from_timer.cs</DependentUpon>
     </Compile>
+    <Compile Include="Layout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Layout.Designer.cs">
+      <DependentUpon>Layout.cs</DependentUpon>
+    </Compile>
     <Compile Include="math.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -78,6 +90,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="CheckBox.resx">
+      <DependentUpon>CheckBox.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="ctof.resx">
       <DependentUpon>ctof.cs</DependentUpon>
     </EmbeddedResource>
@@ -89,6 +104,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="from_timer.resx">
       <DependentUpon>from_timer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Layout.resx">
+      <DependentUpon>Layout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="math.resx">
       <DependentUpon>math.cs</DependentUpon>

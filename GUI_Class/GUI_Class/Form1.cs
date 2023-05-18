@@ -52,5 +52,17 @@ namespace GUI_Class
             Form text_math = new from_timer();
             text_math.Show();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form from = new CheckBox();
+            from.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Form from = new Layout();
+            from.Show();
+        }
     }
 }
