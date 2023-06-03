@@ -64,5 +64,17 @@ namespace GUI_Class
             Form from = new Layout();
             from.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form from = new _5piece();
+            from.Show();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form from = new piano_0603();
+            from.Show();
+        }
     }
 }

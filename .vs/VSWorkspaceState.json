@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\GUI_Class",
+    "\\GUI_Class\\GUI_Class",
+    "\\GUI_Class\\GUI_Class\\Properties"
   ],
-  "SelectedNode": "\\GUI_Class.sln",
+  "SelectedNode": "\\GUI_Class\\GUI_Class\\5piece.cs",
   "PreviewInSolutionExplorer": false
 }

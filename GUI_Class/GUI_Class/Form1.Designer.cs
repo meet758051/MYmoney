@@ -40,6 +40,8 @@ namespace GUI_Class
             this.button_Timer = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // kkick
@@ -101,7 +103,7 @@ namespace GUI_Class
             // 
             this.btmctof.Location = new System.Drawing.Point(216, 16);
             this.btmctof.Name = "btmctof";
-            this.btmctof.Size = new System.Drawing.Size(185, 64);
+            this.btmctof.Size = new System.Drawing.Size(172, 64);
             this.btmctof.TabIndex = 5;
             this.btmctof.Text = "其中考-攝氏轉華氏";
             this.btmctof.UseVisualStyleBackColor = true;
@@ -121,7 +123,7 @@ namespace GUI_Class
             // 
             this.button_Timer.Location = new System.Drawing.Point(216, 98);
             this.button_Timer.Name = "button_Timer";
-            this.button_Timer.Size = new System.Drawing.Size(185, 66);
+            this.button_Timer.Size = new System.Drawing.Size(172, 66);
             this.button_Timer.TabIndex = 7;
             this.button_Timer.Text = "時間";
             this.button_Timer.UseVisualStyleBackColor = true;
@@ -141,17 +143,39 @@ namespace GUI_Class
             // 
             this.button2.Location = new System.Drawing.Point(216, 187);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(185, 66);
+            this.button2.Size = new System.Drawing.Size(172, 66);
             this.button2.TabIndex = 9;
             this.button2.Text = "版面配置";
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(12, 282);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(172, 66);
+            this.button3.TabIndex = 10;
+            this.button3.Text = "五子棋";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(216, 282);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(172, 66);
+            this.button5.TabIndex = 12;
+            this.button5.Text = "期末菜單";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button_Timer);
@@ -181,6 +205,8 @@ namespace GUI_Class
         private System.Windows.Forms.Button button_Timer;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button5;
     }
 }
 
